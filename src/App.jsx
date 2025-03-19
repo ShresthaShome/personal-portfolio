@@ -4,9 +4,13 @@ import NavBar from "./components/NavBar";
 import "./styles/App.css";
 
 function App() {
+  const myInfo = {
+    name: "Ullas Shome",
+  };
+
   return (
     <>
-      <NavBar />
+      <NavBar name={myInfo.name} />
       <Hero />
       <Links />
     </>

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Goldrops;
+  src: url("../assets/fonts/GoldropsRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-text-fill-color: gold;
+}
+
+.logo {
+  font-family: "Goldrops";
+  font-size: 40px;
+}

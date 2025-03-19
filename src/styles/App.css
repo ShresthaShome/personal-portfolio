@@ -1,3 +1,10 @@
 #root {
   max-width: 1920px;
 }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(150, 204, 204);
+}
