@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function NavBar({ name }) {
   return (
-    <div className="flex flex-row items-center justify-between px-5 py-2 NavBar">
+    <div className="flex flex-row items-center justify-between px-5 py-2 NavBar ">
       <Logo name={name} />
       <nav className="hidden sm:flex flex-row gap-3">
         <Button html="#about">About</Button>

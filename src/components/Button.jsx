@@ -1,9 +1,7 @@
 export default function Button({ children, html }) {
   const handleClick = () => {
-    console.log("html", html);
     if (html[0] === "#") {
       const element = document.getElementById(html.slice(1));
-      console.log("element", element);
       element.scrollIntoView({ behavior: "smooth" });
     } else window.location.href = html;
   };

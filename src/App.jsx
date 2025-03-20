@@ -36,7 +36,7 @@ function App() {
 
   const contacts = {
     phone: "+8801518946109",
-    email: "B2Jl0@example.com",
+    email: "shrestha.shome@gmail.com",
     github: "https://github.com/ShresthaShome",
     linkedin: "https://www.linkedin.com/in/shrestha-shome/",
   };
@@ -44,10 +44,19 @@ function App() {
   return (
     <>
       <NavBar name={myInfo.name} />
-      <Hero name={myInfo.name} address={myInfo.address} contacts={contacts} />
-      <About />
+
+      <Hero {...myInfo} contacts={contacts} />
+
+      <About info={myInfo} />
       <Works projects={projects} />
       <Contact contacts={contacts} />
+
+      <footer className="mt-3 pb-1 px-2 text-[14px]">
+        Made with ❤️ by{" "}
+        <a href={contacts.github}>
+          <u>{myInfo.name}</u>
+        </a>
+      </footer>
     </>
   );
 }

@@ -1,7 +1,8 @@
 .NavBar {
-  background: linear-gradient(
-    to right,
-    rgba(113, 136, 187, 0.182),
-    rgba(137, 137, 197, 0.782)
-  );
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, rgb(81, 73, 234), rgb(44, 214, 223));
+  z-index: 1000;
 }
