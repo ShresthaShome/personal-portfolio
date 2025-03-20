@@ -11,12 +11,35 @@ function App() {
     address: "Thanapara, Tangail",
   };
 
+  const projects = [
+    {
+      title: "Project 1",
+      image: "src/assets/images/P1.jpg",
+      link: "",
+    },
+    {
+      title: "Project 2",
+      image: "src/assets/images/P2.jpg",
+      link: "",
+    },
+    {
+      title: "Project 3",
+      image: "src/assets/images/P3.jpg",
+      link: "",
+    },
+    {
+      title: "Project 4",
+      image: "src/assets/images/P4.jpg",
+      link: "",
+    },
+  ];
+
   return (
     <>
       <NavBar name={myInfo.name} />
       <Hero name={myInfo.name} address={myInfo.address} />
       <About />
-      <Works />
+      <Works projects={projects} />
       <Contact />
     </>
   );
