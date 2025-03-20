@@ -8,7 +8,7 @@ import "./styles/App.css";
 function App() {
   const myInfo = {
     name: "Ullas Shome",
-    address: "Thanapara, Tangail",
+    address: "Tangail, Bangladesh",
   };
 
   const projects = [
@@ -34,13 +34,20 @@ function App() {
     },
   ];
 
+  const contacts = {
+    phone: "+8801518946109",
+    email: "B2Jl0@example.com",
+    github: "https://github.com/ShresthaShome",
+    linkedin: "https://www.linkedin.com/in/shrestha-shome/",
+  };
+
   return (
     <>
       <NavBar name={myInfo.name} />
-      <Hero name={myInfo.name} address={myInfo.address} />
+      <Hero name={myInfo.name} address={myInfo.address} contacts={contacts} />
       <About />
       <Works projects={projects} />
-      <Contact />
+      <Contact contacts={contacts} />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import Links from "./Links";
 
-export default function Hero({ name, address }) {
+export default function Hero({ name, address, contacts }) {
   return (
     <main>
       <div className="flex flex-row items-center justify-between px-5 py-5 gap-2 bg-blue-400">
@@ -21,7 +21,7 @@ export default function Hero({ name, address }) {
           />
         </section>
       </div>
-      <Links />
+      <Links contacts={contacts} />
     </main>
   );
 }

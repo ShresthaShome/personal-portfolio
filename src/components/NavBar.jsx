@@ -7,9 +7,9 @@ export default function NavBar({ name }) {
     <div className="flex flex-row items-center justify-between px-5 py-2 NavBar">
       <Logo name={name} />
       <nav className="hidden sm:flex flex-row gap-3">
-        <Button href="">About</Button>
-        <Button href="">Works</Button>
-        <Button href="">Connect</Button>
+        <Button html="#about">About</Button>
+        <Button html="#works">Works</Button>
+        <Button html="#contact">Contact</Button>
       </nav>
     </div>
   );
