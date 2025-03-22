@@ -13,24 +13,24 @@ function App() {
 
   const projects = [
     {
-      title: "Project 1",
-      image: "src/assets/images/P1.jpg",
-      link: "",
+      title: "Ullas's PC Repair Shop",
+      image: "src/assets/images/PC.png",
+      link: "https://repairshop-by-ullas.vercel.app/home/",
     },
     {
-      title: "Project 2",
-      image: "src/assets/images/P2.jpg",
-      link: "",
+      title: "IMDb clone",
+      image: "src/assets/images/IMDb.png",
+      link: "https://imdb-by-ullas.vercel.app/",
     },
     {
-      title: "Project 3",
-      image: "src/assets/images/P3.jpg",
-      link: "",
+      title: "Notion AI Clone",
+      image: "src/assets/images/Notion.png",
+      link: "https://cloned-notion-ai.vercel.app/",
     },
     {
-      title: "Project 4",
-      image: "src/assets/images/P4.jpg",
-      link: "",
+      title: "AI Chatbot",
+      image: "src/assets/images/Helpbot.png",
+      link: "https://ai-helper-chatbot.vercel.app/",
     },
   ];
 
